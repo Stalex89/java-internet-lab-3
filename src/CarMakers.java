@@ -30,7 +30,7 @@ public enum CarMakers {
 		return maker;
 	}
 	
-	public String showMaker(CarMakers maker)
+	public static String showMaker(CarMakers maker)
 	{
 		switch(maker)
 		{
